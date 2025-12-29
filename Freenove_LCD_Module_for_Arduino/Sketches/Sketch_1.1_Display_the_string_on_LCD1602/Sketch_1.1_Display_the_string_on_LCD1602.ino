@@ -24,7 +24,6 @@ void loop() {
   // print the number of seconds since reset:
   lcd.print("Counter:");
   lcd.print(millis() / 1000);
-  delay(1000);
 }
 
 bool i2CAddrTest(uint8_t addr) {
